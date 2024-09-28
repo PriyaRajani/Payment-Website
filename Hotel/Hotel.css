@@ -1,0 +1,758 @@
+@font-face
+{
+    font-family: 'airbnb-black';
+    src: url('/Hotel/Fonts/AirbnbCereal_W_Blk.otf');
+}
+
+@font-face
+{
+    font-family: 'airbnb-light';
+    src: url('/Hotel/Fonts/AirbnbCereal_W_Lt.otf');
+}
+
+@font-face
+{
+    font-family: 'airbnb-bold';
+    src: url('/Hotel/Fonts/AirbnbCereal_W_Bd.otf');
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/** HEADER *****************************************/
+.top
+{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    
+}
+
+.top-text
+{
+    color: #b3b3b3;
+    text-decoration: underline;
+    font-family: 'airbnb-light';
+    font-size: 15px;
+}
+
+.top-text:hover
+{
+    color: #898989;
+    cursor: pointer;
+}
+
+.background
+{
+    height: 560px;
+    background-image: url('/Hotel/Images/living2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.menu-container
+{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    height: 80px;
+}
+
+.menu-flex
+{
+    flex: 1
+}
+
+.logo
+{
+    margin-left: 80px;
+}
+
+.menus
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item-menu
+{
+    font-family: "airbnb-light";
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.right-menu-item
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button
+{   
+    background-color: transparent;
+    color: #222222;
+    font-family: 'airbnb-light';
+    padding: 12px 15px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu-button:hover
+{
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+
+.menu-globe
+{
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.menu-globe:hover
+{
+    cursor: pointer;
+    background-color: #F7F7F7;
+}
+
+.globe
+{
+    font-size: 20px !important;
+}
+
+.button-icons
+{
+    background-color: #F7F7F7;
+    color: grey;
+    font-family: 'airbnb-light';
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 10px;
+    border: 0;
+    border-radius: 25px;    
+    display: flex;
+    align-items: center;
+}
+
+.button-icons:hover
+{
+    cursor: pointer;
+}
+
+.iconMenu
+{
+    font-size: 20px !important;
+    margin-right: 5px !important;
+}
+
+.iconUser
+{
+    font-size: 30px !important;
+}
+
+.iconDot
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    color: red;
+    font-size: 15px !important;
+    margin-top: -25px;
+    margin-left: 43px;
+    border-image: url("/Hotel/Images/circle.png") 30 round !important;
+}
+
+.iconCircle
+{
+    color: white;
+    margin-top: -24px;
+    margin-left: -11px;
+}
+
+/** SEARCH BOX ********************************/
+.search-box-container
+{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box
+{
+    height: 100%;
+    background-color: white;
+    border: 0;
+    border-radius: 45px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+}
+
+.search-item
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-item-1
+{
+    flex: 2;
+    display: flex;
+    flex-direction: column;   
+}
+
+.search-item-4
+{
+    flex: 2;
+}
+
+.location
+{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'airbnb-light';
+    border-right: 1px solid rgb(244, 244, 244);
+}
+
+.location-4
+{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'airbnb-light';
+}
+
+.search-item-top
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.search-item-bottom
+{
+    color: grey;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.itens-4
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-button-container
+{
+    margin-left: 150px;
+}
+
+.search-button
+{
+    background-color: rgb(255, 56, 92);
+    border: none;
+    border-radius: 50%;
+    padding: 20px 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.search-button:hover
+{
+    background-color: #E41D5D;
+}
+
+.nature
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+.the-best-of-nature-top
+{
+    font-size: 58px;
+    font-family: 'airbnb-bold';
+    color: #222222;
+}
+
+.the-best-of-nature-bottom
+{
+    font-size: 58px;
+    font-family: 'airbnb-bold';
+    color: #222222;
+    margin-top: -20px;
+}
+
+.suggestions
+{
+    font-size: 20px;
+    font-family: 'airbnb-light';
+    margin-top: 3px;
+}
+
+.inspire-button
+{
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #222222;
+    color: white;
+    font-family: 'airbnb-bold';
+    font-size: 14px;
+    width: 150px;
+    cursor: pointer;
+}
+
+/** EXPLORE PLACES AROUND YOU *******************/
+.explore
+{
+    margin-left: 80px;
+    font-family: 'airbnb-light';
+    font-weight: 900 !important;
+    font-size: 30px;
+    font-weight: 900;
+    color: #222222;
+}
+
+.places
+{
+    height: 80px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item-place
+{
+    flex: 1;
+    display: flex;
+    cursor: pointer;
+}
+
+.local-image-div
+{
+    flex: 1;
+}
+
+.local-desc
+{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.local-desc b
+{
+    font-family: 'airbnb-bold';
+    color: #222222;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.local-desc p
+{
+    font-family: 'airbnb-light';
+    color: #222222;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.local-image
+{
+    border-radius: 10px;
+    max-width: 65px;
+    max-height: 65px;
+    width: 100%;
+    height: 100%;
+}
+
+.more-places
+{
+    height: 80px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: -20px;
+}
+
+/** LIVE ANYWHERE ******************************/
+.places-living
+{
+    height: 310px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.item-place-living
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.item-place-living img
+{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 12px;
+    height: 280px;
+}
+
+.item-place-living p
+{
+    font-family: 'airbnb-bold';
+    color: #222222;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+/** BANNER */
+.banner
+{
+    padding: 10px 80px;
+    max-width: 1310px;
+    width: 100%;
+}
+
+.banner-image
+{
+    background-image: url("/Hotel/Images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-image-top-p
+{
+    font-size: 60px;
+    color: white;
+    margin-left: 80px;
+    font-family: 'airbnb-bold';
+}
+
+.banner-image-bottom-p
+{
+    font-size: 60px;
+    color: #222222;
+    margin-left: 80px;
+    margin-top: -50px;
+    font-family: 'airbnb-bold';
+}
+
+.banner p
+{
+    margin-top: -70px;
+}
+
+.banner button
+{
+    padding: 12px 30px;
+    width: fit-content;
+    margin-left: 80px;
+    margin-top: -20px;
+    font-family: 'airbnb-bold';
+    font-size: 16px;
+    background-color: rgb(229, 225, 225);
+    cursor: pointer;
+    border: 0;
+    border-radius: 7px;
+}
+
+/** EXPERIENCES*/
+.experiences
+{
+    padding: 10px 80px;
+    max-width: 1310px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-left-image
+{
+    flex: 1;
+    background-image: url("/Hotel/Images/amazing1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.experience-right-image
+{
+    flex: 1;
+    background-image: url("/Hotel/Images/amazing2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience-image-top-p
+{
+    font-size: 60px;
+    color: white;
+    margin-left: 80px;
+    font-family: 'airbnb-bold';
+}
+
+.experience-image-bottom-p
+{
+    font-size: 60px;
+    color: white;
+    margin-left: 80px;
+    margin-top: -50px;
+    font-family: 'airbnb-bold';
+}
+
+.experiences p
+{
+    margin-top: -70px;
+}
+
+.experiences button
+{
+    padding: 12px 30px;
+    width: fit-content;
+    margin-left: 80px;
+    margin-top: -20px;
+    font-family: 'airbnb-bold';
+    font-size: 16px;
+    background-color: rgb(229, 225, 225);
+    cursor: pointer;
+    border: 0;
+    border-radius: 7px;
+}
+
+/** INSPIRATIONS*/
+.inspiration
+{
+    padding: 80px;
+    font-family: 'airbnb-light';
+    height: 270px;
+}
+
+.inspiration-title
+{
+    font-size: 25px;
+}
+
+.inspiration-headers-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.inspiration-headers
+{
+    flex: 1;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.inspiration-headers button:hover
+{
+    background-color: rgb(247,247,247);
+    border-radius: 10px;
+}
+
+.inspiration-headers button
+{
+    margin-bottom: 3px;
+    margin-left: -10px;
+    margin-right: 20px;
+    color: #717171;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.inspiration-headers-active
+{
+    color: #222222 ! important;
+    border-bottom: 2px solid #222222 !important;
+    outline-offset: unset;
+}
+
+.inspiration-column
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.inspiration-column-item
+{
+    flex: 1;
+}
+
+.inspiration-column-item b
+{
+    font-size: 14px;
+    color: #222222;
+    cursor: pointer;
+}
+
+.inspiration-column-item p
+{
+    font-size: 14px;
+     color: #717171;
+     margin-top: 5px;
+    cursor: pointer;
+}
+
+.inspiration-line
+{
+    border-bottom: 2px solid lightgray;
+    margin-top: -3px;
+}
+
+/** FOOTER *****************************************/
+.footer
+{
+    height: 310px;
+    background-color: #F7F7F7;
+    border-top: 1px solid rgb(206, 206, 206);
+    padding: 45px 80px;
+}
+
+.menus-footer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.item-footer
+{
+    flex: 1;
+}
+
+.item-footer b
+{
+    font-family: 'airbnb-light';
+    font-weight: 900;
+    font-size: 15px;
+    color: #3E2222;
+}
+
+.item-footer p
+{
+    font-family: 'airbnb-light';
+    font-size: 15px;
+    color: #222222;
+    cursor: pointer;
+}
+
+.item-footer p:hover
+{
+    text-decoration: underline;
+}
+
+/** FOOTER BOTTOM ***********************/
+.footer-line
+{
+    margin-top: 40px;
+    border-top: 1px solid lightgray;
+}
+
+.footer-bottom
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'airbnb-light';
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer-left
+{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.footer-right
+{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-right-left
+{
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+}
+
+.footer-right-center
+{
+    flex: 1;
+}
+
+.footer-right-right
+{
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+}
+
+
+.footer-center
+{
+    flex: 4;
+}

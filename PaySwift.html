@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Wallet Your Way</title>
+  <link rel="stylesheet" href="PaySwift.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="use-credentials">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div>
+    <div class="container">
+      <!-- Front Page -->
+      <div class="front-page">
+        <!-- Section 1 -->
+        <section class="section-1">
+          <div class="navbar-wrapper">
+            <nav class="navbar">
+              <div class="menu">
+                <div class="menu-icon">
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                  <div class="line line-3"></div>
+                </div>
+                <span>Menu</span>
+              </div>
+              <div class="navbar-logo logo">
+                <span class="p-1">$</span>
+                <span class="p-2">$</span>
+                PaySwift
+              </div>
+              <ul class="nav-list">
+                <li class="nav-list-item dropdown-hover">
+                  <a href="#" class="nav-list-link show-dropdown">Personal <i class="fas fa-chevron-down"></i></a>
+                  <ul class="nav-dropdown nav-dropdown-personal">
+                    <li class="nav-dropdown-item dropdown-heading">
+                      <a href="#" class="dropdown-heading-link">
+                        <i class="fas fa-chevron-down"></i> Personal
+                      </a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="ScanQR/QRCode.html"><img src="/Images/qr-code.png" height="50" width="50" class="animated"></a>
+                      <a href="ScanQR/QRCode.html" class="nav-dropdown-link-2">Scan any QR code</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="SendPayments/Payments.html"><img src="/Images/payment-method.png" height="50" width="50" class="animated"></a>
+                      <a href="SendPayments/Payments.html" class="nav-dropdown-link-2">Send Payments</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="/ExpenseTracker/expenset.html"><img src="/Images/accounting.png" height="50" width="50" class="animated"></a>
+                      <a href="/ExpenseTracker/expenset.html" class="nav-dropdown-link-2">Expense Tracker</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <img src="/Images/wallet.png" height="50" width="50" class="animated">
+                      <a href="#" class="nav-dropdown-link-2">Balance & History</a>
+
+                    </li>
+
+                  </ul>
+
+                </li>
+                <li class="nav-list-item dropdown-hover ">
+                  <a href="#" class="nav-list-link show-dropdown">Booking <i class="fas fa-chevron-down"></i></a>
+                  <ul class="nav-dropdown nav-dropdown-business">
+                    <li class="nav-dropdown-item dropdown-heading">
+                      <a href="#" class="dropdown-heading-link">
+                        <i class="fas fa-chevron-down"></i> Booking
+                      </a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="TrainTickets/TrainTickets.html"><img src="/Images/train-ticket.png" height="50" width="50" class="animated"></a>
+                      <a href="TrainTickets/TrainTickets.html" class="nav-dropdown-link-2">Train Tickets</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="/FlightBooking/Flight.html"><img src="/Images/travel.png" height="50" width="50" class="animated"></a>
+                      <a href="/FlightBooking/Flight.html" class="nav-dropdown-link-2">Flight Tickets</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="MovieTickets/Movie.html"><img src="/Images/movies.png" height="50" width="50" class="animated"></a>
+                      <a href="MovieTickets/Movie.html" class="nav-dropdown-link-2">Movie Tickets</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="/Hotel/Hotel.html"><img src="/Images/book.png" height="50" width="50" class="animated"></a>
+                      <a href="/Hotel/Hotel.html" class="nav-dropdown-link-2">Hotel Booking</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-list-item dropdown-hover">
+                  <a href="#" class="nav-list-link show-dropdown">Pay Utility Bills <i
+                      class="fas fa-chevron-down"></i></a>
+                  <ul class="nav-dropdown nav-dropdown-business">
+                    <li class="nav-dropdown-item dropdown-heading">
+                      <a href="#" class="dropdown-heading-link">
+                        <i class="fas fa-chevron-down"></i> Booking
+                      </a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <img src="/Images/mobile.png" height="50" width="50" class="animated">
+                      <a href="#" class="nav-dropdown-link-2">Mobile Recharge</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="CreditCard/CreditCard.html"><img src="/Images/money.png" height="50" width="50" class="animated"></a>
+                      <a href="CreditCard/CreditCard.html" class="nav-dropdown-link-2">Credit Card Payment</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <img src="/Images/electricity-bill.png" height="50" width="50" class="animated">
+                      <a href="#" class="nav-dropdown-link-2">Electricity Bill</a>
+                    </li>
+                    <li class="nav-dropdown-item">
+                      <a href="OTTPacks/OTT.html"><img src="/Images/tablet.png" height="50" width="50" class="animated"></a>
+                      <a href="OTTPacks/OTT.html" class="nav-dropdown-link-2">OTT Packs</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="navbar-buttons">
+                <button class="navbar-btn login-btn login">Login</button>
+                <button class="navbar-btn signup-btn signup">Signup</button>
+              </div>
+            </nav>
+          </div>
+          <div class="banner">
+            <h1 class="banner-heading">Your Wallet, Your Way!</h1>
+            <p class="banner-paragraph">
+              Whether paying utility bills, purchasing movie tickets or booking travel tickets,
+              our platform is designed to provide users with a Convenient and efficient Way to
+              manage their expenses and reservations from the comfort of your home.
+            </p>
+          </div>
+        </section>
+        <!-- End of Section 1 -->
+
+        <!-- Section 2 -->
+        <section class="section-2">
+          <h1 class="section-2-heading">
+            "Instant Payments, Effortless Living"
+          </h1>
+          <div class="services">
+            <div class="service">
+              <img src="/Images/communications.gif" height="100">
+              <h3 class="service-heading">Payment</h3>
+              <p class="service-paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Minima, veritatis!
+              </p>
+    
+              <a href="ScanQR/QRCode.html"><button class="service-btn">Learn More</button></a>
+            </div>
+            <div class="service">
+              <img src="/Images/booking.gif" height="100">
+              <h3 class="service-heading">Booking</h3>
+              <p class="service-paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Minima, veritatis!
+              </p>
+              <a href="TrainTickets/TrainTickets.html"><button class="service-btn">Learn More</button></a>
+            </div>
+            <div class="service">
+              <img src="/Images/payment-terminal.gif" height="100">
+              <h3 class="service-heading">Utility Bills</h3>
+              <p class="service-paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Minima, veritatis!
+              </p>
+              
+              <a href="CreditCard/CreditCard.html"><button class="service-btn">Learn More</button></a>
+            </div>
+          </div>
+        </section>
+        <!-- End of Section 2 -->
+
+        <!-- Section 3 -->
+        <section class="section-3">
+          <h1 class="section-3-heading">The world prefers PaySwift</h1>
+          <div class="features">
+            <div class="feature">
+              <h3 class="feature-heading">Advanced Protection</h3>
+              <p class="feature-paragraph">
+                Advanced Protection for Payswift refers to enhanced security measures implemented to safeguard financial
+                transactions and user data on the platform. These advanced protection features might include several
+                layers of security to prevent fraud, hacking, and unauthorized access.
+              </p>
+            </div>
+            <div class="feature">
+              <h3 class="feature-heading">Fast Payments</h3>
+              <p class="feature-paragraph">
+                Advanced Protection for Payswift includes multi-factor authentication, end-to-end encryption, fraud
+                detection algorithms, secure payment gateways, and biometric authentication. It also involves regular
+                security audits, tokenization, activity alerts,  and compliance with data
+                privacy regulations to safeguard transactions.
+              </p>
+            </div>
+            <div class="feature">
+              <h3 class="feature-heading">Global Reach</h3>
+              <p class="feature-paragraph">
+                Global Reach for Payswift enables users to send and receive payments across borders, supporting multiple
+                currencies and payment methods. It offers localization features
+                like language  and compliance with global financial regulations, ensuring secure
+                and efficient payment services worldwide.
+              </p>
+            </div>
+            <div class="feature">
+              <h3 class="feature-heading">Easy Integration</h3>
+              <p class="feature-paragraph">
+                Easy Integration for Payswift allows businesses to quickly embed its payment solutions into their
+                platforms with minimal coding. It offers developer-friendly APIs, SDKs, and plugins for seamless
+                integration with websites, apps, and e-commerce systems, ensuring smooth and fast deployment without
+                disrupting existing workflows or systems.
+              </p>
+            </div>
+            <div class="feature">
+              <h3 class="feature-heading">Simple and Convenient</h3>
+              <p class="feature-paragraph">
+                PaySwift offers a seamless experience, making transactions effortless. Whether you're paying bills,
+                sending money, or managing your finances, PaySwift simplifies every step with security and ease.
+                Experience fast, reliable service you can trust.
+              </p>
+            </div>
+            <div class="feature">
+              <h3 class="feature-heading">24/7 Service</h3>
+              <p class="feature-paragraph">
+                Payswift's 24/7 Services ensure continuous, round-the-clock access to payment solutions and customer
+                support. This guarantees uninterrupted transactions, real-time issue resolution, and assistance for
+                users across different time zones, providing a reliable and responsive service experience at any time,
+                day or night.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- End of Section 3 -->
+        <!-- Section 4 -->
+        <section class="section-4">
+          <h1 class="section-4-heading">Get started with PaySwift.</h1>
+          <div class="section-4-content">
+            <div class="section-4-img-wrapper">
+              <img src="/Images/macbook.jpg" />
+            </div>
+            <ul class="section-4-list">
+              <li class="section-4-list-item">
+                <span class="number">1</span>
+                <span>Set up <a href="#">an account</a></span>
+              </li>
+              <li class="section-4-list-item">
+                <span class="number">2</span>
+                <span>Connect your preferred bank account to enable smooth transactions and payments.</span>
+              </li>
+              <li class="section-4-list-item">
+                <span class="number">3</span>
+                <span>Easily transfer money, pay bills, and manage your finances with PaySwift's intuitive
+                  platform</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- End of Section 4 -->
+
+        <!-- Section 5 -->
+        <section class="section-5">
+          <div class="section-5-top">
+            <h2 class="section-5-top-heading">Sign Up and Get Started</h2>
+            <button class="blue-btn signup">Get Started</button>
+          </div>
+          <footer class="footer">
+            <div class="footer-top">
+              <ul class="footer-list">
+                <li>
+                  <a href="#">Help and Contact</a>
+                </li>
+                <li>
+                  <a href="#">Fees</a>
+                </li>
+                <li>
+                  <a href="#">Security</a>
+                </li>
+                <li>
+                  <a href="#">Features</a>
+                </li>
+
+              </ul>
+              <ul class="footer-list">
+                <li>
+                  <a href="#">English</a>
+                </li>
+                <li>
+                  <a href="#">Hindi</a>
+                </li>
+                <li>
+                  <a href="#">French</a>
+                </li>
+                <li>
+                  <a href="#">Italian</a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="/Images/flag.jpg" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-bottom">
+              <p class="copyright">Copyright &copy; All Rights Reserved</p>
+            </div>
+          </footer>
+        </section>
+        <!-- End of Section 5 -->
+      </div>
+      <!-- End of Front Page -->
+
+      <!-- Login Page -->
+      <div class="login-page">
+        <div class="login-page-content">
+          <div class="login-page-logo logo">
+            <span class="p-1">$</span>
+            <span class="p-2">$</span>
+            <span>Pay</span><span>Swift</span>
+          </div>
+          <form class="login-page-form">
+            <input type="text" class="form-login-input" placeholder="Email or mobile number" />
+            <input type="password" class="form-login-input" placeholder="Password" />
+            <input type="button" class="form-login-btn" value="Log In" />
+            <a href="#" class="form-login-link">Having trouble logging in?</a>
+            <span>or</span>
+            <input type="button" class="form-signup-btn signup" value="Sign Up" />
+          </form>
+        </div>
+      </div>
+      <!-- End of Login Page -->
+
+      <!-- Sign Up Page -->
+      <div class="signup-page">
+        <div class="signup-page-top">
+          <div class="signup-page-logo logo">
+            <span class="p-1">$</span>
+            <span class="p-2">$</span>
+            PaySwift
+          </div>
+          <button class="login">Log In</button>
+        </div>
+        <div>
+
+          <div class="signup-page-content">
+            <div class="signup-page-content-left">
+              <div class="content-left-images">
+                <img src="/Images/Person3.jpg" />
+                <img src="/Images/Person-2.jpg" />
+                <img src="/Images/Person4.jpg" />
+              </div>
+              <h1>See for yourself why millions of people love PaySwift.</h1>
+            </div>
+            <div class="signup-page-content-right">
+              <h3>Sign up for PaySwift, it's free</h3>
+              <div class="signup-container">
+                <form>
+                  <label for="fullname">
+                    Full Name
+                  </label>
+                  <input id="fullname" name="fullname" placeholder="Full Name" type="text" />
+                  <label for="email">
+                    Email address
+                  </label>
+                  <div class="email-container">
+                    <input id="email" name="email" placeholder="name@example.com" type="email" />
+                  </div>
+                  <label for="password">
+                    Password
+                  </label>
+                  <input id="password" name="password" placeholder="Password" type="password" />
+                  <label for="mobile">
+                    Mobile Number
+                  </label>
+                  <input id="mobile" name="mobile" placeholder="Mobile Number" type="text" />
+                  <div>
+                    <input id="remember" name="remember" type="checkbox" />
+                    <label for="remember">
+                      Remember me
+                    </label>
+                  </div>
+                  <button class="signup-button" type="submit">
+                    Sign up
+                  </button>
+                </form>
+                <div class="terms">
+                  By clicking Sign up, you agree to the terms of use.
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Sign Up Page -->
+  </div>
+  </div>
+  </div>
+  <script src="PaySwift.js"></script>
+</body>
+
+</html>

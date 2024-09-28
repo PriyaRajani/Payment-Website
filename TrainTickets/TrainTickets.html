@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Ticket Booking</title>
+    <link rel="stylesheet" href="TrainTickets.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: rgba(14, 36, 107, 0.49);">PaySwift Train Booking</h1>
+        <form id="trainForm">
+            <div class="form-group">
+                <label for="from">From:</label>
+                <input type="text" id="from" placeholder="Enter departure location">
+            </div>
+            <div class="form-group">
+                <label for="to">To:</label>
+                <input type="text" id="to" placeholder="Enter destination">
+            </div>
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+            </div>
+            <button type="submit" id="searchBtn">Search for Trains</button>
+        </form>
+        
+        <div id="trainList" class="train-table hidden">
+            <h2>AVAILABLE TRAINS :</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Train No</th>
+                        <th>Train Name</th>
+                        <th>Time</th>
+                        <th>Cost</th>
+                    </tr>
+                </thead>
+                <tbody id="trainData"></tbody>
+            </table>
+            <button id="bookNow" class="hidden" disabled>Book Now</button>
+        </div>
+
+        <div id="classSelection" class="class-selection hidden">
+            <h2>SELECT YOUR CLASS :</h2>
+            <div class="class-options">
+                <div class="class-box gen">GEN</div>
+                <div class="class-box sl">SL</div>
+                <div class="class-box ac1">AC1</div>
+                <div class="class-box ac2">AC2</div>
+            </div>
+        </div>
+    </div>
+    <script src="TrainTickets.js"></script>
+</body>
+</html>
