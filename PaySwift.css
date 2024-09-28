@@ -61,7 +61,7 @@
         rgba(38, 38, 38, 0.7),
         rgba(38, 38, 38, 0.6)
       ),
-      url(/Images/bg.jpg) center no-repeat;
+      url(Images/bg.jpg) center no-repeat;
     background-size: cover;
     position: relative;
   }
