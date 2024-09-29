@@ -1,19 +1,19 @@
 @font-face
 {
     font-family: 'airbnb-black';
-    src: url('Hotel/Fonts/AirbnbCereal_W_Blk.otf');
+    src: url('Fonts/AirbnbCereal_W_Blk.otf');
 }
 
 @font-face
 {
     font-family: 'airbnb-light';
-    src: url('Hotel/Fonts/AirbnbCereal_W_Lt.otf');
+    src: url('Fonts/AirbnbCereal_W_Lt.otf');
 }
 
 @font-face
 {
     font-family: 'airbnb-bold';
-    src: url('Hotel/Fonts/AirbnbCereal_W_Bd.otf');
+    src: url('Fonts/AirbnbCereal_W_Bd.otf');
 }
 
 body
