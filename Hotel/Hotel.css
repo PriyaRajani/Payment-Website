@@ -51,7 +51,7 @@ body
 .background
 {
     height: 560px;
-    background-image: url('Hotel/Images/living2.webp');
+    background-image: url('Images/living2.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
@@ -175,7 +175,7 @@ body
     font-size: 15px !important;
     margin-top: -25px;
     margin-left: 43px;
-    border-image: url("Hotel/Images/circle.png") 30 round !important;
+    border-image: url("Images/circle.png") 30 round !important;
 }
 
 .iconCircle
@@ -449,7 +449,7 @@ body
 
 .banner-image
 {
-    background-image: url("Hotel/Images/banner.jpg");
+    background-image: url("Images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
     height: 600px;
@@ -508,7 +508,7 @@ body
 .experience-left-image
 {
     flex: 1;
-    background-image: url("Hotel/Images/amazing1.jpg");
+    background-image: url("Images/amazing1.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
     height: 600px;
@@ -522,7 +522,7 @@ body
 .experience-right-image
 {
     flex: 1;
-    background-image: url("Hotel/Images/amazing2.jpg");
+    background-image: url("Images/amazing2.jpg");
     background-repeat: no-repeat;
     background-size: cover;    
     height: 600px;
